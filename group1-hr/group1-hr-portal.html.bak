@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!--Name: Jacob Bridges
+filename: group1-hr-html.html
+Blackboard Username: jlbridges1
+Class Section: 0004
+Purpose: HTML Page for HR Portal -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>HR Portal</title>
+<link href="css/group1-hr-style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+<header>
+	<h1>Group1 HR project</h1>
+</header>
+<main>
+	
+	<section>
+		<table id="links">
+	<thead>
+		
+	</thead>
+	<tbody>
+	<tr><th colspan="2">HR Links</th></tr>
+		<tr><td>Application 1</td><td><a href="php/fuel-cost.php">Calculate Fuel Cost</td></tr>
+		<tr><td>Application 2</td><td><a href="html/group1-hr-form.html">Search by Last Name</td></tr>
+		<tr><td>Application 3</td><td><a href="php/group1-hr-jobsearch.html">Search by Job Title</td></tr>
+	<tr><th colspan="2">Reports</th></tr>
+		<tr><td>Application 4</td><td>Create Report by Countries</td></tr>
+		<tr><td>Application 5</td><td>Create Report by Departments</td></tr>
+		
+</tbody>
+<tfoot>
+	
+</tfoot>
+</table>
+	</section>
+
+
+
+<footer> 
+<p>Designed by Jacob, Mason, Madeline, Brian, and Trinidad</p>
+</footer>
+</main>
+</div>
+</body>
+
+</html>

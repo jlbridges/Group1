@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Name: Jacob Bridges
+		Filename: group1-hr-form.html
+    Blackboard User Name: jlbridges1
+    Class Section: CTI.110.0004
+    Purpose: 
+	-->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search Emp Form</title>
+	<link href="../css/group1-hr-style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+<header>
+	<h1>Search Employee</h1>
+</header>
+
+<main>
+	<form id="empSearch" action="../php/hr-sql-database-pull.php" method="post">
+		<fieldset>
+		<legend>Emp Name</legend>
+		<!-- code from dirty-html-form -->
+			<label for ="lastName">Last Name:</label>
+			<input type="text" id="name" name="name" required><br><br>
+			<label for ="employeeId">Employee Id:</label>
+			<input type="text" id="id" name="id"><br><br>
+		</fieldset>
+		<button <a href="../php/group1-hr-emp-search.php"</a type="submit" id="empSearch">Search Employee</button>
+
+<br>
+		
+		
+	</form>
+</main>
+<footer>
+	<p>Designed by Jacob, Mason, Madeline, Brian, and Trinidad</p>
+</footer>
+</div><!--closes wrapper-->
+</body>
+</html>
